@@ -4,13 +4,11 @@ from openai import OpenAI
 
 # 1️⃣ Cargar variables de entorno
 load_dotenv()
-
 # 2️⃣ Crear cliente de OpenAI
 client = OpenAI(
     api_key=os.getenv("OPENAI_API_KEY"),
     organization=os.getenv("OPENAI_ORG_ID")
 )
-
 # 3️⃣ Función para enviar un prompt a OpenAI
 def consultar_openai():
     try:
