@@ -26,7 +26,6 @@ python --version
 2. Abrir Visual Studio Code.
 3. Seleccionar **Archivo → Abrir carpeta** y elegir la carpeta del proyecto.
 
----
 
 ### Paso 2️⃣ Crear el entorno virtual
 
@@ -36,7 +35,6 @@ Desde la terminal integrada de Visual Studio Code, ejecutar:
 python -m venv venv
 ```
 
----
 
 ### Paso 3️⃣ Activar el entorno virtual (Windows)
 
@@ -45,7 +43,7 @@ venv\Scripts\activate.bat
 ```
 Si el entorno está activo, la terminal mostrará **(venv)** al inicio.
 
----
+
 ### Paso 4️⃣ Instalar dependencias
 
 Con el entorno virtual activo, ejecutar:
@@ -53,7 +51,8 @@ Con el entorno virtual activo, ejecutar:
 ```bash
 pip install openai python-dotenv
 ```
----
+
+
 ### Paso 5️⃣ Configurar variables de entorno
 
 Crear un archivo **.env** en la raíz del proyecto y agregar:
@@ -63,7 +62,7 @@ Crear un archivo **.env** en la raíz del proyecto y agregar:
 - OPENAI_ORG_ID= organization_id_aqui
 ```
 
----
+
 ### Paso 6️⃣ Configurar el archivo .gitignore
 
 Crear o editar el archivo **.gitignore** y agregar:
@@ -74,7 +73,7 @@ venv/
 __pycache__/
 ```
 
----
+
 ### Paso 7️⃣ Crear el archivo principal
 
 Crear el archivo **main.py** y escribir el código encargado de:
