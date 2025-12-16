@@ -1,4 +1,4 @@
-# 📌 Proyecto: Consumo de la API de OpenAI con Python
+# Proyecto: Consumo de la API de OpenAI con Python
 
 Este proyecto demuestra cómo integrar la **API de OpenAI** en un proyecto desarrollado con **Python**, aplicando buenas prácticas como el uso de entornos virtuales, variables de entorno y control de versiones con Git.
 
